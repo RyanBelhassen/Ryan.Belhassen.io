@@ -1,0 +1,85 @@
+body {
+  background: #000;
+  color: #FFF;
+  behavior: url(csshover.htc);
+}
+h1 {
+			color: #DDD;
+			justify-content: center;
+			border-bottom: 3px solid;
+			margin-bottom: 0;
+			
+		}
+
+		#main {
+			color: #CCC;
+			margin-left: 7em;
+			padding: 1px 0 1px 5%;
+			border-left: 3px solid;
+		}
+
+		div#nav {
+			float: left;
+			width: 7em;
+			margin: -1px 0 0 -1px;
+		}
+
+		div#nav ul {
+			margin: 0;
+			padding: 0;
+			width: 7em;
+		}
+
+		div#nav li {
+			position: relative;
+			list-style: none;
+			margin: 0;
+		}
+
+		div#nav li:hover {
+			background: #EBB;
+		}
+
+		div#nav li.submenu {
+			
+		}
+
+		div#nav li.submenu:hover {
+			background-color: #8BB;
+		}
+
+		div#nav li a {
+			display: block;
+			padding: 0.25em 0 0.25em 0.5em;
+			text-decoration: none;
+			width: 6.5em;
+		}
+
+		div#nav>ul a {
+			width: auto;
+		}
+
+		div#nav ul ul {
+			position: absolute;
+			top: 0;
+			left: 7em;
+			display: none;
+		}
+		
+		div#nav ul ul ul {
+			position: absolute;
+			top: 0;
+			left: 7em;
+			display: none;
+		}
+		
+		div#nav ul ul ul ul {
+			position: absolute;
+			top: 0;
+			left: 7em;
+			display: none;
+		}
+
+		div#nav ul.level1 li.submenu:hover ul.level2 {
+			display: block;
+		}
