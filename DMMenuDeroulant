@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<h1>Avions de légende</h1>
+	<div id="nav">
+		<ul class="level1">
+			<li class="submenu"><a href="/Airbus/">Airbus</a>
+				<ul class="level2">
+					<li><a href="/Airbus/A300/">A300</a></li>
+					<li><a href="/Airbus/A320/">A320</a></li>
+					<li><a href="/Airbus/A380/">A380</a></li>
+					<li><a href="/Airbus/Beluga/">Beluga</a></li>
+				</ul>
+			</li>
+
+			<li class="submenu"><a href="/Boeing/">Boeing</a>
+				<ul class="level2">
+					<li><a href="/Boeing/B707/">B707</a></li>
+					<li><a href="/Boeing/B747/">B747</a></li>
+					<li><a href="/Boeing/B737/">B737</a></li>
+					<li><a href="/Airbus/B777/">B777</a></li>
+				</ul>
+			</li>
+			
+			<li class="submenu"><a href="/Autres/">Autres</a>
+				<ul class="level2">
+					<li class="submenu"><a href="/Français/">Français</a>
+						<ul class="level3">
+							<li><a href="/Français/Caravelle/">Caravelle</a></li>
+							<li><a href="/Français/Concorde/">Concorde</a></li>
+							<li><a href="/Français/Dewoitine D520/">Dewoitine D520</a></li>
+						</ul></li>
+						
+					<li class="submenu"><a href="/Américains/">Américains</a>
+						<ul class="level3">
+							<li><a href="/Américains/Mustang Spitfire/">Mustang Spitfire</a></li>
+							<li><a href="/Américains/Douglas DC-3/">Douglas DC-3</a>
+							<li class="submenu"><a href="/Américains/Lockheed/">Lockheed</a>
+								<ul class="level4">
+									<li><a href="/Lockheed/Constellation/">Constellation</a></li>
+									<li><a href="/Lockheed/Galaxy/">Galaxy</a></li>
+									<li><a href="/Lockheed/Tristar/">Tristar</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					
+					<li class="submenu"><a href="/Ukrainiens/">Ukrainiens</a>
+						<ul class="level3">
+							<li><a href="/Ukrainiens/Antonov An-124/">Antonov An-124</a></li>
+							<li><a href="/Ukrainiens/Antonov An-225/">Antonov An-225</a></li>
+						</ul></li>
+					
+					<li class="submenu"><a href="/Ukrainiens/">Russes</a>
+						<ul class="level3">
+							<li><a href="/Ukrainiens/Tupolev Tu-95/">Tupolev Tu-95</a></li>
+							<li><a href="/Ukrainiens/Tupolev Tu-144/">Tupolev Tu-144</a></li>
+						</ul></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	
+	<div id="main">
+		<p>En plus de 130 ans, ces bijoux d'aluminium et d'acier nous ont émerveillés par leurs prouesses techniques <br> 
+		et par leurs formes atypiques. En à peine 100 ans, nous sommes passer de l'Éole de Clémant Ader <br> au mastodonte Antonov An-225, c'est dingue !</p>
+	</div>
